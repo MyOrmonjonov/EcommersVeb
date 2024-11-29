@@ -1,5 +1,5 @@
-<%@ page import="org.example.demo3.DB" %>
-<%@ page import="org.example.demo3.User" %>
+<%@ page import="org.example.demo4.DB" %>
+<%@ page import="org.example.demo4.User" %>
 <%
     String username = request.getParameter("username");
     String password = request.getParameter("password");
