@@ -1,7 +1,13 @@
 package org.example.demo4;
 
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.util.List;
+@AllArgsConstructor
+@Data
+@NoArgsConstructor
 public class User {
     private Integer userId=idGen++;
     private String name;
